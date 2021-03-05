@@ -10,6 +10,6 @@ eureka:
   instance:
     preferIpAddress: true
     #setting home-page-url
-    status-page-url-path: https://${eureka.instance.hostName}/info
-    health-check-url: https://${eureka.instance.hostName}/health
-    home-page-url: https://${eureka.instance.hostName}/
+    #status-page-url-path: https://${eureka.instance.hostName}/info
+    #health-check-url: https://${eureka.instance.hostName}/health
+    #home-page-url: https://${eureka.instance.hostName}/
